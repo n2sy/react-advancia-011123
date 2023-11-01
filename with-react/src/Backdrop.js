@@ -1,7 +1,7 @@
 import React from "react";
 
-function Backdrop() {
-  return <div className="backdrop"></div>;
+function Backdrop(props) {
+  return <div onClick={props.onYassine} className="backdrop"></div>;
 }
 
 export default Backdrop;
